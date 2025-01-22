@@ -1,6 +1,7 @@
 import subprocess
 from colorama import Fore, Style, init
 import pyfiglet
+import time
 def print_header():
     # طباعة اسم الأداة بشكل كبير
     ascii_art = pyfiglet.figlet_format("ABDO Network Tool", font="slant")
@@ -37,3 +38,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    time.sleep(10000000)  # The Time To Stop Tool
+
